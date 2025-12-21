@@ -14,7 +14,7 @@ Predict whether a traffic collision involving a vulnerable road user (VRU) is a 
 
 ## 📊 Dataset
 
-- **Source:** [NYC Open Data - Motor Vehicle Collisions]([https://data.gov/](https://catalog.data.gov/dataset/motor-vehicle-collisions-crashes))
+- **Source:** [NYC Open Data - Motor Vehicle Collisions]([https://catalog.data.gov/dataset/motor-vehicle-collisions-crashes])
 - **Original Size:** 2.2M+ collision records
 - **Filtered Dataset:** 34,463 VRU collisions
 - **Features:** Temporal, geographic, vehicle type, contributing factors

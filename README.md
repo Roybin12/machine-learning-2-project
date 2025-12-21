@@ -94,6 +94,3 @@ Predict whether a traffic collision involving a vulnerable road user (VRU) is a 
 ## 📄 License
 
 This project is for educational purposes as part of the Data Mining course.
-```
-
-

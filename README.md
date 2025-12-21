@@ -98,14 +98,4 @@ This project is for educational purposes as part of the Data Mining course.
 
 ---
 
-## 📝 requirements.txt
-```
-pandas>=1.5.0
-numpy>=1.23.0
-scikit-learn>=1.2.0
-xgboost>=1.7.0
-matplotlib>=3.6.0
-seaborn>=0.12.0
-folium>=0.14.0
-requests>=2.28.0
-jupyter>=1.0.0
+

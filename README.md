@@ -4,6 +4,8 @@
 
 **Course:** נושאים מתקדמים בלמידת מכונה
 
+**Instructor:** Prof. Chen Haggag 
+
 ---
 
 ## 🎯 Project Goal

@@ -14,9 +14,9 @@ Predict whether a traffic collision involving a vulnerable road user (VRU) is a 
 
 ## 📊 Dataset
 
-- **Source:** - **Source:** [NYC Open Data - Motor Vehicle Collisions](https://catalog.data.gov/dataset/motor-vehicle-collisions-crashes)
+- **Source:** [NYC Open Data - Motor Vehicle Collisions](https://catalog.data.gov/dataset/motor-vehicle-collisions-crashes)
 - **Original Size:** 2.2M+ collision records
-- **Filtered Dataset:** 34,463 VRU collisions
+- **VRU Sample:** Pre-filtered dataset containing only pedestrian/cyclist collisions
 - **Features:** Temporal, geographic, vehicle type, contributing factors
 
 ---
@@ -34,18 +34,19 @@ Predict whether a traffic collision involving a vulnerable road user (VRU) is a 
 
 ### Unsupervised Learning
 - **K-Means Clustering:** Identified 5 geographic collision hotspots
-- **Isolation Forest:** Detected 1,691 anomalous collision patterns
+- **Isolation Forest:** Detected anomalous collision patterns
 
 ---
 
 ## 📁 Repository Structure
 ```
-├── ML2.ipynb                  # Main notebook with all analysis
-├── nyc_collisions_sample.zip  # Raw data sample (400K records)
+├── ML2.ipynb                  # Main analysis notebook
+├── Sampling.ipynb             # Data sampling/filtering notebook
+├── VRU_Crashes_Sample.zip     # Pre-filtered VRU collision data
 ├── geocoded_locations.csv     # Google Maps API geocoded coordinates
 ├── nyc_collisions_map.html    # Interactive map visualization
 ├── requirements.txt           # Python dependencies
-├── archive/                   # Archived files
+├── archive/                   # Previous versions
 └── README.md                  # This file
 ```
 
@@ -88,6 +89,14 @@ Predict whether a traffic collision involving a vulnerable road user (VRU) is a 
 - Matplotlib, Seaborn
 - Folium (Interactive Maps)
 - Google Maps Geocoding API
+
+---
+
+## 🤖 AI Tools Disclosure
+
+This project utilized the following AI tools for development assistance:
+- **Claude Opus 4.5** (Anthropic) - Code development and debugging
+- **Google Gemini 3** (Google) - Research and analysis support
 
 ---
 

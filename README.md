@@ -104,4 +104,4 @@ This project utilized the following AI tools for development assistance:
 
 ## 📄 License
 
-This project is for educational purposes as part of the Data Mining course.
+This project is for educational purposes as part of the Machine Learning course.

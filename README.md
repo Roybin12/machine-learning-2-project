@@ -42,14 +42,15 @@ Predict whether a traffic collision involving a vulnerable road user (VRU) is a 
 
 ## 📁 Repository Structure
 ```
-├── ML2.ipynb                  # Main analysis notebook
-├── Sampling.ipynb             # Data sampling/filtering notebook
-├── VRU_Crashes_Sample.zip     # Pre-filtered VRU collision data
+├── ML2.ipynb                  # Main analysis notebook (preprocessing, models, evaluation)
+├── Visualization.ipynb        # Additional visualizations & KPIs dashboard
+├── Sampling.ipynb             # Data sampling/filtering from original dataset
+├── VRU_Crashes_Sample.zip     # Pre-filtered VRU collision data (192K records)
 ├── geocoded_locations.csv     # Google Maps API geocoded coordinates
-├── nyc_collisions_map.html    # Interactive map visualization
+├── nyc_collisions_map.html    # Interactive Folium map visualization
 ├── requirements.txt           # Python dependencies
-├── archive/                   # Previous versions
-└── README.md                  # This file
+├── archive/                   # Previous notebook versions
+└── README.md
 ```
 
 ---
